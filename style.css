@@ -1,0 +1,237 @@
+body{
+     padding    : 0;
+     margin     : 0;
+     font-family: Helvetica;
+}
+
+/*============HEADER============*/
+#header{
+      position: fixed;
+      top     : 0;
+      left    : 0;
+      z-index:500;
+      width: 100%;
+      height  :130px;
+      background-image  : url('images/whitebg.jpg');
+      background-repeat: repeat-x;     
+}
+
+#header img{
+      display: block;
+      margin : auto;
+      height : 120px;
+      padding-top: 5px; 
+      width:100%;
+}
+
+/*============TABS-TOP============*/
+#tabs-top{
+      position: fixed;
+      top     : 130px;
+      left    : 0;
+      z-index:500;
+      width   : 100%;
+      height  : 40px;
+      background-color:orange;
+}
+
+#tabs-top a{
+      float   : left;
+      display : block;
+      width   : 33%;
+      height  :35px;
+      font-weight : 700;
+      color       : white;
+      text-align  : center;
+      text-decoration : none;
+      padding-top     : 12px;
+}
+#tabs-top a:hover{
+      color:saddlebrown;
+}
+
+/*============MAIN-HOME============*/
+#main-home{
+      margin-top: 160px;
+}
+
+/*============MAIN-HOME-01===========*/
+#main-home-01 img{
+      margin-top: 170px;    
+}
+
+/*============TABS-BOTTOM============*/
+#tabs-bottom{
+      position : fixed;
+      bottom   : 0;
+      left     : 0;
+      z-index  : 500;
+      width    : 100%;
+      height   : 40px;
+      background-color: orange;
+}
+
+#tabs-bottom a{
+     float : left;
+     display : block;
+     width : 33%;
+     height : 35px;
+     font-weight : 700;
+     color       : white;
+     text-align  : center;
+     text-decoration : none;
+     padding-top     : 12px;
+}
+#tabs-bottom a:hover{
+     color:saddlebrown;
+}
+
+/*============MAIN============*/
+#main{
+    margin-top: 170px;
+    background-image: url('images/inside-mall-pic%20BLUR.jpg');
+    background-repeat:repeat;
+    
+}
+
+/*============CONTENT============*/
+#content{
+    padding-top: 1px;
+    padding-bottom: 50px;
+}
+
+/*============INFO-BOX============*/
+a.info-box{
+      text-decoration : none;
+      background      : rgba(255 ,225, 55, .8);
+      width           : 90%;
+      height          : 100px;
+      display         : block;
+      margin          : auto;
+      margin-top      : 12px;
+      padding         : 1px; 
+}
+.info-box img{
+      height : 70px;
+      margin : 10px;
+      float  : left;
+}
+
+.info-box h3{
+      padding : 0;
+      margin-bottom :0;
+      width : 90%;
+      color : #572800;
+}
+
+.info-box p{
+      margin:0px;
+      padding: 0px;
+      width   : 100%;
+    text-align:center;
+}
+
+.info-box img.right{
+      float      : right;
+      margin-top : 25px;
+      height   :  40px; 
+}
+
+.info-box h2{
+    text-align: center;
+    float:left;
+    margin-top: 25px;
+    height: 40px;
+    font-weight: bolder;
+}
+.info-box h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+/*============INFO-BOX01============*/
+a.info-box01{
+      text-decoration : none;
+      background      : rgba(255 ,225, 55, .8);
+      width           : 90%;
+      height          : 150px;
+      display         : block;
+      margin          : auto;
+      margin-top      : 12px;
+      padding         : 1px; 
+}
+.info-box01 img{
+      height : 80px;
+      margin : 20px;
+      float  : left;;
+}
+
+.info-box01 img.right{
+      float      : right;
+      margin-top : 40px;
+      height   :  60px; 
+}
+.info-box01 h3{
+    text-decoration: underline;
+}
+
+
+/*============INFO-BOX-FULL============*/
+#info-box-full{
+      background-color : rgba(255, 255, 255, .8) ;
+      width   : 90%;
+      display : block;
+      margin  : auto;
+      margin-top : 12px;
+      padding    : 10px;
+
+}
+
+#info-box-full img{
+      width : 100%;
+      border:solid 5px orange;
+}
+#info-box-full h4{
+      text-decoration: underline;
+    
+}
+#info-box-full h2{
+      text-decoration: underline;
+}
+#info-box-full a:hover{
+      color:saddlebrown;
+}
+.logo01 ul{
+    list-style-image: url('images/movie-icon.png');
+}
+
+/*============FORM============*/
+
+input{
+      width: 100%;
+      height: 25px;
+      margin : 12px 0;
+      border : 1px solid #929292;
+}
+
+textarea{
+      width: 100%;
+      height :25px;
+      margin : 12px 0;
+      border : 1px solid #929292;
+}
+
+.button{
+      display : block;
+      background-color: sandybrown;
+      text-decoration : none;
+      text-align  : center;
+      color       : white;
+      font-size   : 16px;
+      font-weight : 600;
+      margin : 12px 0;
+      padding : 8px 0;
+}
+
+
+
